@@ -1,45 +1,28 @@
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vcenter=true&width=700&lines=Hi+%F0%9F%90%8B%2C+I'm+Manoj+Kumar+Parida;GenAI+%26+Agentic+AI+Engineer;IIT+Kanpur+Alum+%7C+Data+Scientist;Building+RAG%2C+LLMs+%26+Multi-Agent+Systems" alt="Typing SVG" />
+</div>
 
-### <code>manoj@github ~ $ ./contributions.sh</code>
+<br>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Manoj's Contribution Heatmap" />
-
-<br><br>
-
-### <code>manoj@github ~ $ whoami</code>
-
-<table>
-  <tr>
-    <td valign="top"><img src="./ascii-portrait.svg" width="370" alt="Manoj's ASCII Portrait" /></td>
-    <td valign="top"><img src="./info-card.svg" width="510" alt="Manoj's Info Card" /></td>
-  </tr>
-</table>
-
+<div align="center">
+  <a href="https://linkedin.com">
+    <img src="https://img.shields.io/badge/IIT%20Kanpur-Alum-blue?style=for-the-badge&logo=education&logoColor=white&color=0055A5" alt="IIT Kanpur" />
+  </a>
+  <a href="https://github.com/Manoj8763">
+    <img src="https://img.shields.io/badge/GenAI-Agentic%20AI-brightgreen?style=for-the-badge&logo=openai&logoColor=white&color=0EA5E9" alt="GenAI" />
+  </a>
+  <a href="https://github.com/Manoj8763">
+    <img src="https://img.shields.io/badge/Data%20Science-Risk%20Analytics-orange?style=for-the-badge&logo=python&logoColor=white&color=F59E0B" alt="Data Science" />
+  </a>
 </div>
 
 ---
 
-<details>
-<summary>🛠️ How to customize & maintenance</summary>
+### 🚀 About Me
 
-### 1. Update Contribution Data locally
-```bash
-python scripts/fetch_contributions.py Manoj8763
-python scripts/render_heatmap_svg.py
-```
-
-### 2. Customize Info Card
-Edit `scripts/make_info_card.py` with your custom details, then run:
-```bash
-python scripts/make_info_card.py
-```
-
-### 3. Generate ASCII Portrait from new photo
-```bash
-python scripts/prep_photo.py <path-to-photo.jpg>
-python scripts/make_ascii_svg.py
-```
-
-### 4. Enable GitHub Actions Daily Refresh
-Push this repo to a public repository named `Manoj8763/Manoj8763` on GitHub. Ensure Actions permissions are set to **Read and write permissions** in `Settings > Actions > General`.
-</details>
+```yaml
+Name: Manoj Kumar Parida
+Alma Mater: Indian Institute of Technology (IIT), Kanpur
+Specialization: GenAI, Agentic AI Systems, RAG Pipelines & Data Science
+Focus: Autonomous Multi-Agent Workflows, Fine-tuning (QLoRA), Model Validation & Risk Analytics
+Passionate About: Scaling LLMs/SLMs for Enterprise Solutions & Predictive Modeling
