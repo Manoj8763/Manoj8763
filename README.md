@@ -1,13 +1,11 @@
 <img src="https://raw.githubusercontent.com/Manoj8763/Manoj8763/main/header.svg" width="100%"/>
 
-<!-- TYPING -->
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=28&pause=800&color=00F5FF&center=true&vCenter=true&width=700&height=60&lines=🧠+Building+Autonomous+AI+Agents...;🔥+Fine-tuning+LLMs+with+QLoRA+%26+PEFT...;🚀+Designing+Multi-Agent+Swarms...;⚡+Deploying+RAG+Pipelines+at+Scale...;📊+Risk+Analytics+%26+Model+Validation...;🎯+IIT+Kanpur+%7C+AI+%26+Data+Science" alt="Typing Animation" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=28&pause=800&color=00FF41&center=true&vCenter=true&width=700&height=60&lines=🧠+Building+Autonomous+AI+Agents...;🔥+Fine-tuning+LLMs+with+QLoRA+%26+PEFT...;🚀+Designing+Multi-Agent+Swarms...;⚡+Deploying+RAG+Pipelines+at+Scale...;📊+Risk+Analytics+%26+Model+Validation...;🎯+IIT+Kanpur+%7C+AI+%26+Data+Science" alt="Typing Animation" />
 </div>
 
 <br/>
 
-<!-- ROBOTS + TERMINAL -->
 <div align="center">
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
@@ -26,15 +24,14 @@
 
 <br/>
 
-<!-- BADGES -->
 <div align="center">
   <img src="https://img.shields.io/badge/IIT%20Kanpur-0055A5?style=for-the-badge&logo=education&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/GenAI%20%26%20Agentic%20AI-Expert-00F5FF?style=for-the-badge&logo=openai&logoColor=white&labelColor=0a0a2e" />
+  <img src="https://img.shields.io/badge/GenAI%20%26%20Agentic%20AI-Expert-00FF41?style=for-the-badge&logo=openai&logoColor=black&labelColor=020c02" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Data%20Science-Risk%20Analytics-FF0080?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0a2e" />
+  <img src="https://img.shields.io/badge/Data%20Science-Risk%20Analytics-00AA22?style=for-the-badge&logo=python&logoColor=white&labelColor=020c02" />
   &nbsp;
-  <img src="https://img.shields.io/badge/LangGraph-Multi--Agent-7928CA?style=for-the-badge&logo=dependabot&logoColor=white&labelColor=0a0a2e" />
+  <img src="https://img.shields.io/badge/LangGraph-Multi--Agent-007700?style=for-the-badge&logo=dependabot&logoColor=white&labelColor=020c02" />
 </div>
 
 <br/>
@@ -83,11 +80,11 @@
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=00F5FF" />
-  <img src="https://img.shields.io/badge/LangGraph-7928CA?style=for-the-badge&logo=graphviz&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=00FF41" />
+  <img src="https://img.shields.io/badge/LangGraph-007700?style=for-the-badge&logo=graphviz&logoColor=white" />
   <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/FAISS-0055A5?style=for-the-badge&logo=meta&logoColor=white" />
-  <img src="https://img.shields.io/badge/QLoRA%20%2F%20PEFT-FF0080?style=for-the-badge&logo=sparkles&logoColor=white" />
+  <img src="https://img.shields.io/badge/QLoRA%20%2F%20PEFT-00AA22?style=for-the-badge&logo=sparkles&logoColor=white" />
 </div>
 
 <br/>
@@ -105,44 +102,4 @@
 
 ---
 
-### 🐍 CONTRIBUTION SNAKE ANIMATION
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Manoj8763/Manoj8763/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Manoj8763/Manoj8763/output/github-contribution-grid-snake.svg"/>
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Manoj8763/Manoj8763/output/github-contribution-grid-snake.svg" width="100%"/>
-  </picture>
-</div>
-
-<br/>
-
----
-
-### 📊 LIVE GITHUB STATS
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Manoj8763&show_icons=true&theme=radical&hide_border=false&border_radius=10&include_all_commits=true&count_private=true" width="48%" />
-  &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Manoj8763&theme=radical&hide_border=false" width="48%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Manoj8763&theme=radical&hide_border=false" width="100%" />
-</div>
-
-<br/>
-
----
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-be80-6d14fe210811.gif" width="60" />
-  &nbsp;&nbsp;
-  <b>Engineered by Manoj Kumar Parida • IIT Kanpur • GenAI & Agentic AI</b>
-  &nbsp;&nbsp;
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-be80-6d14fe210811.gif" width="60" />
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24&height=120&section=footer" width="100%"/>
+### 🐍 CONTRIBUTION SNAKE
