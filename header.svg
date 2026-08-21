@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%">
+        <animate attributeName="stop-color"
+          values="#7928CA;#FF0080;#00F5FF;#FF6B35;#00C851;#7928CA"
+          dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%">
+        <animate attributeName="stop-color"
+          values="#FF0080;#00F5FF;#FF6B35;#00C851;#7928CA;#FF0080"
+          dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color"
+          values="#00F5FF;#FF6B35;#00C851;#7928CA;#FF0080;#00F5FF"
+          dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Wave path at bottom -->
+    <clipPath id="waveclip">
+      <path d="M0,0 L900,0 L900,180 Q675,220 450,200 Q225,180 0,210 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background rectangle with animated gradient -->
+  <rect width="900" height="220" fill="url(#grad)" clip-path="url(#waveclip)"/>
+
+  <!-- Wave shape at bottom -->
+  <path d="M0,190 Q225,160 450,180 Q675,200 900,170 L900,220 L0,220 Z" fill="#0d1117"/>
+
+  <!-- Main title text -->
+  <text x="450" y="105" text-anchor="middle"
+    font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+    font-size="42" font-weight="900" letter-spacing="3"
+    fill="white"
+    style="filter: drop-shadow(0 4px 16px rgba(0,0,0,0.5))">
+    MANOJ KUMAR PARIDA
+  </text>
+
+  <!-- Subtitle text -->
+  <text x="450" y="148" text-anchor="middle"
+    font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+    font-size="16" font-weight="600" letter-spacing="1"
+    fill="rgba(255,255,255,0.90)">
+    🤖 AI Agent Engineer | GenAI Architect | IIT Kanpur
+  </text>
+</svg>
