@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Manoj8763/Manoj8763/main/header.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Manoj8763/Manoj8763/main/header.svg?v=2" width="100%"/>
 
 <div align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=28&pause=800&color=00FF41&center=true&vCenter=true&width=700&height=60&lines=🧠+Building+Autonomous+AI+Agents...;🔥+Fine-tuning+LLMs+with+QLoRA+%26+PEFT...;🚀+Designing+Multi-Agent+Swarms...;⚡+Deploying+RAG+Pipelines+at+Scale...;📊+Risk+Analytics+%26+Model+Validation...;🎯+IIT+Kanpur+%7C+AI+%26+Data+Science" alt="Typing Animation" />
