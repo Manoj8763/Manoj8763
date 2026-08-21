@@ -1,5 +1,4 @@
-<!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24&height=250&section=header&text=MANOJ%20KUMAR%20PARIDA&fontSize=45&fontColor=fff&fontAlignY=40&desc=🤖%20AI%20Agent%20Engineer%20%7C%20GenAI%20Architect%20%7C%20IIT%20Kanpur&descAlignY=60&descSize=18&animation=twinkling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Manoj8763/Manoj8763/main/header.svg" width="100%"/>
 
 <!-- TYPING -->
 <div align="center">
@@ -107,7 +106,6 @@
 ---
 
 ### 🐍 CONTRIBUTION SNAKE ANIMATION
-> *(Run the **Generate Snake Animation** action from the Actions tab first!)*
 
 <div align="center">
   <picture>
