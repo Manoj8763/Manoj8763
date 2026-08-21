@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 360" width="510" height="360">
+  <style>
+    .card-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 10px; ry: 10px; }
+    .title { fill: #58a6ff; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; font-weight: bold; }
+    .sep { fill: #30363d; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; }
+    .key { fill: #79c0ff; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: bold; }
+    .val { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; }
+    .line { opacity: 0; animation: fadeInLine 0.5s ease-out forwards; }
+    @keyframes fadeInLine {
+      0% { opacity: 0; transform: translateX(-10px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+  </style>
+  <rect width="510" height="360" class="card-bg" />
+  <!-- Terminal Top Bar -->
+  <circle cx="20" cy="20" r="6" fill="#ff5f56" />
+  <circle cx="40" cy="20" r="6" fill="#ffbd2e" />
+  <circle cx="60" cy="20" r="6" fill="#27c93f" />
+  <g class="line" style="animation-delay: 0.1s;"><text x="20" y="52" class="title">Manoj8763@IIT-Kanpur</text></g>
+  <g class="line" style="animation-delay: 0.18s;"><text x="20" y="77" class="sep">--------------------------------------</text></g>
+  <g class="line" style="animation-delay: 0.26s;"><text x="20" y="102" class="key">Name      :</text><text x="115" y="102" class="val">Manoj Kumar Parida</text></g>
+  <g class="line" style="animation-delay: 0.34s;"><text x="20" y="127" class="key">College   :</text><text x="115" y="127" class="val">IIT Kanpur</text></g>
+  <g class="line" style="animation-delay: 0.42s;"><text x="20" y="152" class="key">Role      :</text><text x="115" y="152" class="val">GenAI / Agentic AI & Data Science</text></g>
+  <g class="line" style="animation-delay: 0.5s;"><text x="20" y="177" class="key">Stack     :</text><text x="115" y="177" class="val">Python • RAG • LLMs/SLMs • Agentic AI</text></g>
+  <g class="line" style="animation-delay: 0.58s;"><text x="20" y="202" class="key">AI / ML   :</text><text x="115" y="202" class="val">PyTorch • LangGraph • QLoRA • FAISS • SQL</text></g>
+  <g class="line" style="animation-delay: 0.66s;"><text x="20" y="227" class="key">Analytics :</text><text x="115" y="227" class="val">SQL • Tableau • Power BI • Excel</text></g>
+  <g class="line" style="animation-delay: 0.74s;"><text x="20" y="252" class="key">Tools     :</text><text x="115" y="252" class="val">Tableau • Power BI • Figma • Jira • Canva</text></g>
+  <g class="line" style="animation-delay: 0.82s;"><text x="20" y="277" class="key">Focus     :</text><text x="115" y="277" class="val">Model Validation • Risk Analytics • AI Agents</text></g>
+  <g class="line" style="animation-delay: 0.9s;">
+    <rect x="20" y="310" width="20" height="14" fill="#484f58" rx="2" />
+    <rect x="44" y="310" width="20" height="14" fill="#ff7b72" rx="2" />
+    <rect x="68" y="310" width="20" height="14" fill="#7ee787" rx="2" />
+    <rect x="92" y="310" width="20" height="14" fill="#ffa657" rx="2" />
+    <rect x="116" y="310" width="20" height="14" fill="#79c0ff" rx="2" />
+    <rect x="140" y="310" width="20" height="14" fill="#d2a8ff" rx="2" />
+    <rect x="164" y="310" width="20" height="14" fill="#a5d6ff" rx="2" />
+  </g>
+</svg>
