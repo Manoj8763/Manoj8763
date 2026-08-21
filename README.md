@@ -102,4 +102,44 @@
 
 ---
 
-### 🐍 CONTRIBUTION SNAKE
+### 🐍 CONTRIBUTION SNAKE ANIMATION
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Manoj8763/Manoj8763/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Manoj8763/Manoj8763/output/github-contribution-grid-snake.svg"/>
+    <img alt="github-snake" src="https://raw.githubusercontent.com/Manoj8763/Manoj8763/output/github-contribution-grid-snake.svg" width="100%"/>
+  </picture>
+</div>
+
+<br/>
+
+---
+
+### 📊 LIVE GITHUB STATS
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Manoj8763&show_icons=true&theme=radical&hide_border=false&border_radius=10&include_all_commits=true&count_private=true" width="48%" />
+  &nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Manoj8763&theme=radical&hide_border=false" width="48%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Manoj8763&theme=radical&hide_border=false" width="100%" />
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-be80-6d14fe210811.gif" width="60" />
+  &nbsp;&nbsp;
+  <b>Engineered by Manoj Kumar Parida • IIT Kanpur • GenAI & Agentic AI</b>
+  &nbsp;&nbsp;
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-be80-6d14fe210811.gif" width="60" />
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020c02,100:00FF41&height=120&section=footer" width="100%"/>
