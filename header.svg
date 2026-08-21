@@ -1,21 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
   <defs>
     <style>
+      /* ── DINO LEG ANIMATION ── */
       @keyframes lf1 { 0%,49%{opacity:1} 50%,100%{opacity:0} }
       @keyframes lf2 { 0%,49%{opacity:0} 50%,100%{opacity:1} }
       .leg1 { animation: lf1 0.22s steps(1,end) infinite; }
       .leg2 { animation: lf2 0.22s steps(1,end) infinite; }
-      @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-2px)} }
-      .dino { animation: bounce 0.22s ease-in-out infinite; }
+
+      /* ── DINO JUMP ANIMATION (Synced with Cacti Obstacles) ── */
+      @keyframes dinoJump {
+        0%, 5%   { transform: translateY(0); }
+        12%      { transform: translateY(-62px); } /* Jump 1 */
+        19%, 37% { transform: translateY(0); }
+        44%      { transform: translateY(-62px); } /* Jump 2 */
+        51%, 70% { transform: translateY(0); }
+        77%      { transform: translateY(-62px); } /* Jump 3 */
+        84%, 100%{ transform: translateY(0); }
+      }
+      .dino { animation: dinoJump 3.2s ease-in-out infinite; }
+
+      /* ── CACTI SCROLLING ── */
       @keyframes scroll { from{transform:translateX(0)} to{transform:translateX(-1100px)} }
       .ca { animation: scroll 3.2s linear infinite; }
       .cb { animation: scroll 3.2s linear infinite; animation-delay: -1.07s; }
       .cc { animation: scroll 3.2s linear infinite; animation-delay: -2.13s; }
+
+      /* ── CLOUDS SCROLLING ── */
       @keyframes cscroll { from{transform:translateX(0)} to{transform:translateX(-1100px)} }
       .cl1 { animation: cscroll 14s linear infinite; animation-delay: 0s; }
       .cl2 { animation: cscroll 14s linear infinite; animation-delay: -7s; }
+
+      /* ── GROUND PEBBLES ── */
       @keyframes gscroll { from{transform:translateX(0)} to{transform:translateX(-150px)} }
       .gnd { animation: gscroll 0.9s linear infinite; }
+
+      /* ── SPEECH BALLOON PULSE ── */
+      @keyframes popBubble {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.04); }
+      }
+      .speech-group {
+        transform-origin: 145px 85px;
+        animation: popBubble 2s ease-in-out infinite;
+      }
+
+      /* ── SCORE COUNTER ── */
       @keyframes s0  {0%,9.9%{opacity:1} 10%,100%{opacity:0}}
       @keyframes s1  {0%,9.9%{opacity:0} 10%,19.9%{opacity:1} 20%,100%{opacity:0}}
       @keyframes s2  {0%,19.9%{opacity:0}20%,29.9%{opacity:1}30%,100%{opacity:0}}
@@ -39,16 +68,27 @@
     </style>
   </defs>
 
+  <!-- ════ BACKGROUND ════ -->
   <rect width="900" height="220" fill="#f4f4f4"/>
 
-  <text x="18" y="30" font-family="'Courier New', Courier, monospace"
-    font-size="13" font-weight="bold" fill="#555" letter-spacing="2">MANOJ KUMAR PARIDA</text>
-  <text x="18" y="46" font-family="'Courier New', Courier, monospace"
-    font-size="10" fill="#999" letter-spacing="1">AI AGENT ENGINEER  |  GENAI ARCHITECT  |  IIT KANPUR</text>
+  <!-- ════ TOP BAR: NAME + SCORE ════ -->
+  <text x="18" y="30"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" font-weight="bold" fill="#555" letter-spacing="2">
+    MANOJ KUMAR PARIDA
+  </text>
+  <text x="18" y="46"
+    font-family="'Courier New', Courier, monospace"
+    font-size="10" fill="#999" letter-spacing="1">
+    AI AGENT ENGINEER  |  GENAI ARCHITECT  |  IIT KANPUR
+  </text>
 
-  <text x="736" y="30" font-family="'Courier New', Courier, monospace"
+  <!-- HI Score -->
+  <text x="736" y="30"
+    font-family="'Courier New', Courier, monospace"
     font-size="15" font-weight="bold" fill="#bbb" letter-spacing="1">HI 00420</text>
 
+  <!-- Animated score -->
   <g font-family="'Courier New', Courier, monospace" font-size="15"
      font-weight="bold" fill="#555" letter-spacing="1">
     <text class="s0" x="836" y="30">00082</text>
@@ -63,8 +103,10 @@
     <text class="s9" x="836" y="30">00196</text>
   </g>
 
+  <!-- Divider line under top bar -->
   <line x1="0" y1="54" x2="900" y2="54" stroke="#ddd" stroke-width="1"/>
 
+  <!-- ════ CLOUDS ════ -->
   <g fill="#ccc">
     <g class="cl1">
       <rect x="220" y="75" width="12" height="6"/>
@@ -82,9 +124,11 @@
     </g>
   </g>
 
+  <!-- ════ GROUND ════ -->
   <rect x="0" y="178" width="900" height="2" fill="#535353"/>
   <rect x="0" y="180" width="900" height="1" fill="#bbb"/>
 
+  <!-- Ground pebbles (scrolling) -->
   <g class="gnd" fill="#999">
     <rect x="30"  y="182" width="5" height="2"/>
     <rect x="75"  y="183" width="3" height="1"/>
@@ -111,6 +155,8 @@
     <rect x="1000" y="182" width="5" height="2"/>
   </g>
 
+  <!-- ════ CACTI OBSTACLES ════ -->
+  <!-- Cactus A — tall single -->
   <g class="ca" fill="#535353">
     <rect x="900" y="144" width="16" height="34"/>
     <rect x="884" y="153" width="16" height="9"/>
@@ -118,6 +164,8 @@
     <rect x="916" y="155" width="16" height="9"/>
     <rect x="927" y="145" width="5" height="13"/>
   </g>
+
+  <!-- Cactus B — double -->
   <g class="cb" fill="#535353">
     <rect x="900" y="146" width="14" height="32"/>
     <rect x="886" y="155" width="14" height="8"/>
@@ -128,6 +176,8 @@
     <rect x="940" y="157" width="10" height="7"/>
     <rect x="940" y="150" width="4" height="9"/>
   </g>
+
+  <!-- Cactus C — triple cluster -->
   <g class="cc" fill="#535353">
     <rect x="900" y="148" width="12" height="30"/>
     <rect x="888" y="156" width="12" height="8"/>
@@ -141,29 +191,71 @@
     <rect x="960" y="159" width="8" height="6"/>
   </g>
 
-  <g class="dino" fill="#535353">
-    <rect x="50"  y="147" width="24" height="9"/>
-    <rect x="37"  y="154" width="15" height="8"/>
-    <rect x="72"  y="132" width="46" height="30"/>
-    <rect x="108" y="121" width="16" height="16"/>
-    <rect x="100" y="103" width="42" height="24"/>
-    <rect x="132" y="120" width="12" height="5" fill="#f4f4f4"/>
-    <rect x="128" y="107" width="10" height="10" fill="#f4f4f4"/>
-    <rect x="129" y="108" width="6"  height="6"  fill="#535353"/>
-    <rect x="132" y="109" width="2"  height="2"  fill="#f4f4f4"/>
-    <rect x="113" y="154" width="16" height="5"/>
-    <rect x="127" y="154" width="5"  height="10"/>
-    <g class="leg1">
-      <rect x="88"  y="162" width="14" height="16"/>
-      <rect x="83"  y="176" width="22" height="4"/>
-      <rect x="108" y="158" width="14" height="20"/>
-      <rect x="108" y="176" width="22" height="4"/>
+  <!-- ════ DINOSAUR & SPEECH BALLOON (JUMP TOGETHER) ════ -->
+  <g class="dino">
+
+    <!-- 💬 SPEECH BALLOON -->
+    <g class="speech-group">
+      <!-- Outer border of pixelated speech balloon -->
+      <rect x="80" y="65" width="135" height="34" rx="6" fill="#535353"/>
+      <!-- Inner white bubble -->
+      <rect x="82" y="67" width="131" height="30" rx="4" fill="#ffffff"/>
+
+      <!-- Tail of speech balloon pointing to Dino's head -->
+      <polygon points="125,97 135,97 122,108" fill="#535353"/>
+      <polygon points="126,97 134,97 124,105" fill="#ffffff"/>
+
+      <!-- Text inside bubble -->
+      <text x="147" y="87"
+        font-family="'Courier New', Courier, monospace"
+        font-size="12" font-weight="bold" fill="#333" text-anchor="middle">
+        Hii! I am Manoj
+      </text>
     </g>
-    <g class="leg2">
-      <rect x="88"  y="158" width="14" height="20"/>
-      <rect x="84"  y="176" width="22" height="4"/>
-      <rect x="108" y="162" width="14" height="16"/>
-      <rect x="108" y="176" width="22" height="4"/>
+
+    <!-- 🦖 DINOSAUR (pixel art T-Rex) -->
+    <g fill="#535353">
+      <!-- Tail -->
+      <rect x="50"  y="147" width="24" height="9"/>
+      <rect x="37"  y="154" width="15" height="8"/>
+
+      <!-- Body -->
+      <rect x="72"  y="132" width="46" height="30"/>
+
+      <!-- Neck -->
+      <rect x="108" y="121" width="16" height="16"/>
+
+      <!-- Head -->
+      <rect x="100" y="103" width="42" height="24"/>
+
+      <!-- Mouth -->
+      <rect x="132" y="120" width="12" height="5" fill="#f4f4f4"/>
+
+      <!-- Eye -->
+      <rect x="128" y="107" width="10" height="10" fill="#f4f4f4"/>
+      <rect x="129" y="108" width="6"  height="6"  fill="#535353"/>
+      <rect x="132" y="109" width="2"  height="2"  fill="#f4f4f4"/>
+
+      <!-- Arm -->
+      <rect x="113" y="154" width="16" height="5"/>
+      <rect x="127" y="154" width="5"  height="10"/>
+
+      <!-- LEG FRAME 1 (running) -->
+      <g class="leg1">
+        <rect x="88"  y="162" width="14" height="16"/>
+        <rect x="83"  y="176" width="22" height="4"/>
+        <rect x="108" y="158" width="14" height="20"/>
+        <rect x="108" y="176" width="22" height="4"/>
+      </g>
+
+      <!-- LEG FRAME 2 (running) -->
+      <g class="leg2">
+        <rect x="88"  y="158" width="14" height="20"/>
+        <rect x="84"  y="176" width="22" height="4"/>
+        <rect x="108" y="162" width="14" height="16"/>
+        <rect x="108" y="176" width="22" height="4"/>
+      </g>
     </g>
+
   </g>
 </svg>
